@@ -7,11 +7,11 @@ require "rails_admin_multiple_upload/version"
 Gem::Specification.new do |s|
   s.name        = "rails_admin_multiple_upload"
   s.version     = RailsAdminMultipleUpload::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsAdminMultipleUpload."
-  s.description = "TODO: Description of RailsAdminMultipleUpload."
+  s.authors     = ["Simon"]
+  s.email       = ["aaa@gmail.com"]
+  s.homepage    = "No page"
+  s.summary     = " Summary of RailsAdminMultipleUpload."
+  s.description = "Description of RailsAdminMultipleUpload."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
