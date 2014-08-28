@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = RailsAdminMultipleUpload::VERSION
   s.authors     = ["Simon"]
   s.email       = ["aaa@gmail.com"]
-  s.homepage    = "No page"
+  s.homepage    = "www.github.com"
   s.summary     = " Summary of RailsAdminMultipleUpload."
   s.description = "Description of RailsAdminMultipleUpload."
   s.license     = "MIT"
