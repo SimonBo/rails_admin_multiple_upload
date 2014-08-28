@@ -1,0 +1,7 @@
+/ %h2 Custom action loaded and active
+/ %pre @abstract_model.inspect
+/ %pre @object.inspect
+= simple_form_for(rails_admin.multiple_upload_url(@abstract_model.to_param), html: { multipart: true }) do |f|
+  = f.input :article_id, :as => :hidden, :input_html => { :name => "article_id", :value => @object.id }
+  = file_field_tag('article_pictures_file', multiple: true, name: "article[pictures_attributes][][file]")
+  = f.submit :submit, value: 'Upload', name: 'Upload', :class => 'btn btn-primary'
